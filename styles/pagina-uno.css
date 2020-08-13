@@ -1,10 +1,10 @@
 @font-face{
 	font-family: DS-DIGI;
-    src: url(styles\font\DS-DIGI.TTF) format("truetype");
+    src: url(../tyles/font/DS-DIGI.TTF) format("truetype");
 }
 @font-face{
 	font-family: bison;
-	src: url(styles\font\Bison-Bold_PersonalUse_.ttf) format("truetype");
+	src: url(../styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
 }
 body{
 	margin: unset;
@@ -156,6 +156,9 @@ footer{
 	body > section{
 		width: 100%;
 	}
+	header{
+		height: auto;
+	}
 }
 @media screen and (max-width:453px){
 	.myButtonI{
@@ -173,9 +176,12 @@ footer{
 	body > section > p.camino{
 		padding: 0em;
 	}
-}
-@media screen and (max-width:388px){
-	header{
-		height: 6em;
+}	
+
+@media screen and (max-width:550px){
+	.camino{
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
