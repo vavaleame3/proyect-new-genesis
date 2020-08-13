@@ -122,7 +122,7 @@ h4{
       padding-left: 0px;
     }
   }
-@media screen and (max-width:300px){
+@media screen and (max-width:450px){
     #titulos > h1{
       font-size: 5em;
     }
