@@ -54,7 +54,7 @@ svg:hover{
 	box-shadow: 1px 1px 30px 1px rgba(245,245,245,0.57);
 }
 body>section{
-    background-color: #00000088;
+    background-color: #000000c0;
     width: 50em;
     margin-left: auto;
     margin-right: auto;
@@ -67,7 +67,7 @@ body>section{
 p{
     font-family:'Courier New', Courier, monospace;
     color: #00ff4c;
-    font-size: larger;
+    font-size: large;
     padding-left: 10px;
     padding-right: 10px;
    }
