@@ -79,10 +79,7 @@ p{
 body>section>div{
     text-align: center;
    }
-body > header > table > tbody{
-	height: auto;
-	background-color: #242424;
-}
+
 .myButtonI {
 	box-shadow:inset 0px 1px 3px 0px #000000;
 	background:linear-gradient(to bottom, #44444460 5%, #00000060 100%);
