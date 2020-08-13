@@ -1,11 +1,10 @@
-
 @font-face{
 	font-family: DS-DIGI;
-    src: url(styles\font\DS-DIGI.TTF) format("truetype");
+    src: url(../styles/font/DS-DIGI.TTF) format("truetype");
 }
 @font-face{
 	font-family: bison;
-	src: url(styles\font\Bison-Bold_PersonalUse_.ttf) format("truetype");
+	src: url(../styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
 }
 body{
 	margin: unset;
@@ -166,8 +165,30 @@ footer{
 		margin-left: unset;
 	}
 }
-@media screen and (max-width:388px){
+@media screen and (max-width:550px){
+	.camino{
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+@media screen and (max-width:400px){
 	header{
-		height: 6em;
+		height: auto;
+	}
+}
+@media screen and (max-width:240px){
+	#prueba > td.descarga > a > svg{
+		font-size: 100%;
+		margin-left: 2%;
+	}
+	#prueba > td.descarga{
+		width: auto;
+		padding: 0%;
+	}
+	.myButtonD , .myButtonI{
+		font-size: 1em;
+		font-weight:bold;
+		padding:0.5em 0.7em;
 	}
 }
