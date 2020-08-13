@@ -131,8 +131,6 @@ footer{
 	body>main>section{
 		width: auto;
 	}
-}
-@media screen and (max-width:400px){
 	header{
 		height: auto;
 	}
