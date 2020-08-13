@@ -132,7 +132,7 @@ footer{
 		width: auto;
 	}
 }
-@media screen and (max-width:400px) and (min-width:100px){
+@media screen and (max-width:400px){
 	header{
 		height: auto;
 	}
