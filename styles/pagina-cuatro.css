@@ -4,7 +4,7 @@
 }
 @font-face{
 	font-family: bison;
-	src: url(../styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
+	src: url(..styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
 }
 body{
     margin: unset;
