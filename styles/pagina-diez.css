@@ -11,7 +11,7 @@ body{
 	margin: unset;
 	background-size: 100% 100%;
    }
-header{
+   header{
 	background-color: #242424;
 	width: 100%;
 	height: 3.5em;
@@ -54,12 +54,11 @@ svg:hover{
 	box-shadow: 1px 1px 30px 1px rgba(245,245,245,0.57);
 }
 body>section{
-    background-color: #00000088;
-    width: 700px;
+    background-color: #000000ea;
+	width: 10em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 6.5em;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
    }
@@ -67,20 +66,44 @@ p{
     font-family:'Courier New', Courier, monospace;
     color: #00ff4c;
     font-size: large;
-    padding-left: 10px;
+    padding-left: 1px;
 	padding-right: 10px;
 	text-align: center;
    }
 .camino{
-	width: 100%;
-	text-align: center;
-    }
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+	}
+video{
+	width: 80%;
+	height: 70%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+#problema{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.863);
+	font-size: 1em;
+}
+#problema > a {
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
 
 body>section>div{
     text-align: center;
    }
 
-.myButtonI {
+   .myButtonI {
 	box-shadow:inset 0px 1px 3px 0px #000000;
 	background:linear-gradient(to bottom, #44444460 5%, #00000060 100%);
 	background-color:#00000005;
@@ -104,6 +127,7 @@ body>section>div{
 	position:relative;
 	top:1px;
 }
+
 /*PIE DE PAGINA*/
 footer{
 	margin-top: 0.5em;
@@ -112,7 +136,6 @@ footer{
 	padding-top: 0.2em;
 	padding-bottom: 0.4em;
 	bottom: 0px;
-	position: absolute;
 	width: 100%;
 }
 #pie, #pie > a{
@@ -127,40 +150,51 @@ footer{
 	font-size: 1em;
 }
 /*MEDIA QUERYS*/
-@media screen and (max-width:700px){
+@media screen and (max-width:710px){
 	body > section{
 		width: 100%;
 	}
 }
+
 @media screen and (max-width:550px){
 	.camino{
 		text-align: center;
 		padding-right: 0px;
 		padding-left: 0px;
 	}
+	#problema{
+		font-size: 0.8em;
+	}
+	body{
+		background-image: url(../images/fondo-dialogo.jpg);
+		background-size: unset;
+	}
+}
+@media screen and (max-width:530px) and (min-width:454px){
+	footer{
+		position: absolute;
+	}
+}
+@media screen and (max-width:453px){
+	.myButtonI{
+		margin-right: unset;
+	}
+	video{
+		margin-top: 20%;
+	}
+}
+@media screen and (max-width:410px) and (min-width:370px){
+	footer{
+		position: absolute;
+	}
 }
 @media screen and (max-width:400px){
-	body > section{
-		margin-top: 1em;
+	#problema{
+		font-size: 0.7em;
 	}
 }
 @media screen and (max-width:370px){
 	header{
-		height: auto;
-	}
-}
-@media screen and (max-width:240px){
-	#prueba > td.descarga > a > svg{
-		font-size: 100%;
-		margin-left: 2%;
-	}
-	#prueba > td.descarga{
-		width: auto;
-		padding: 0%;
-	}
-	.myButtonD , .myButtonI{
-		font-size: 1em;
-		font-weight:bold;
-		padding:0.5em 0.7em;
+		height: 6em;
 	}
 }
