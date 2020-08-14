@@ -176,7 +176,7 @@ footer{
 		text-align: center;
 	}
 }
-@media screen and (max-width:710px){
+@media screen and (max-width:370px){
 	body > header{
 		height: auto;
 	}
