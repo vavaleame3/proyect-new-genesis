@@ -161,7 +161,6 @@ footer{
 		padding-top: 0.5em;
 		padding-bottom: 0.5em;
 		width: 100%;
-		margin-bottom: 2em;
 	}
 	body > section > p.camino{
 		width: 100%;
@@ -176,11 +175,6 @@ footer{
 		text-align: center;
 	}
 }
-@media screen and (max-width:370px){
-	body > header{
-		height: auto;
-	}
-}
 @media screen and (max-width:453px){
 	.myButtonI{
 		margin-right: unset;
@@ -192,6 +186,26 @@ footer{
 @media screen and (max-width:400px){
 	body > section{
 		margin-top: 0.5em;
-		margin-bottom: 4em;
+		margin-bottom: 0em;
+	}
+}
+@media screen and (max-width:370px){
+	body > header{
+		height: auto;
+	}
+}	
+@media screen and (max-width:240px){
+	#prueba > td.descarga > a > svg{
+		font-size: 100%;
+		margin-left: 2%;
+	}
+	#prueba > td.descarga{
+		width: auto;
+		padding: 0%;
+	}
+	.myButtonD , .myButtonI{
+		font-size: 1em;
+		font-weight:bold;
+		padding:0.5em 0.7em;
 	}
 }
