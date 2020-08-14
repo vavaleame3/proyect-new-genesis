@@ -145,3 +145,18 @@ footer{
 		padding-left: 0px;
 	}
 }
+@media screen and (max-width:240px){
+	#prueba > td.descarga > a > svg{
+		font-size: 100%;
+		margin-left: 2%;
+	}
+	#prueba > td.descarga{
+		width: auto;
+		padding: 0%;
+	}
+	.myButtonD , .myButtonI{
+		font-size: 1em;
+		font-weight:bold;
+		padding:0.5em 0.7em;
+	}
+}
