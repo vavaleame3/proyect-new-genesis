@@ -137,6 +137,7 @@ footer{
 	padding-bottom: 0.4em;
 	bottom: 0px;
 	width: 100%;
+	position: absolute;
 }
 #pie, #pie > a{
 	color: white;
@@ -176,22 +177,13 @@ footer{
 		margin-right: 2.5%;
 	}
 }
-@media screen and (max-width:530px) and (min-width:454px){
-	footer{
-		position: absolute;
-	}
-}
+
 @media screen and (max-width:453px){
 	.myButtonI{
 		margin-right: unset;
 	}
 	video{
 		margin-top: 20%;
-	}
-}
-@media screen and (max-width:410px) and (min-width:370px){
-	footer{
-		position: absolute;
 	}
 }
 @media screen and (max-width:400px){
