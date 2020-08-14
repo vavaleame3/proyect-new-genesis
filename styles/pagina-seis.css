@@ -69,7 +69,7 @@ body>section{
 p{
     font-family:'Courier New', Courier, monospace;
     color: #00ff4c;
-    font-size: large;
+	font-size: large;
 	text-align: center;
    }
 .camino{
@@ -135,10 +135,11 @@ footer{
 	margin-top: 0.5em;
 	background-color: #242424;
 	margin-bottom: 0%;
-	display: block;
 	padding-top: 0.2em;
 	padding-bottom: 0.4em;
-	bottom: auto;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
 }
 #pie, #pie > a{
 	color: white;
