@@ -157,6 +157,11 @@ footer{
 		width: 100%;
 	}
 }
+@media screen and (min-width:690px){
+	footer{
+		position: absolute;
+	}
+}
 @media screen and (max-width:453px){
 	.myButtonI{
 		margin-right: unset;
@@ -168,16 +173,6 @@ footer{
 @media screen and (max-width:370px){
 	header{
 		height: 6em;
-	}
-}
-@media screen and (max-width:550px){
-	.camino{
-		text-align: center;
-		padding-right: 0px;
-		padding-left: 0px;
-	}
-	body > section {
-		position: unset;
 	}
 }
 @media screen and (max-width:240px){
