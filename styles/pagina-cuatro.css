@@ -137,6 +137,12 @@ footer{
 		padding-left: 0px;
 	}
 }
+@media screen and (max-width:500px){
+	#muerte{
+		width: 100%;
+		text-align: center;
+	}
+}
 @media screen and (max-width:370px){
 	header{
 		height: 6em;
