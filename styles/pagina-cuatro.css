@@ -141,7 +141,7 @@ footer{
 	}
 	body > section{
 		margin-top: 5em;
-		margin-bottom: 5em;
+		margin-bottom: 5.5em;
 	}
 }
 @media screen and (max-width:400px){
