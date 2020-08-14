@@ -59,7 +59,7 @@ body>section{
     margin-left: auto;
     margin-right: auto;
     margin-top: 6em;
-    margin-bottom: 12em;
+    margin-bottom: 8em;
     padding-top: 5px;
     padding-bottom: 10px;
    }
@@ -137,7 +137,6 @@ footer{
 	padding-top: 0.2em;
 	padding-bottom: 0.4em;
 	bottom: 0px;
-	position: absolute;
 	width: 100%;
 }
 #pie, #pie > a{
