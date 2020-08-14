@@ -137,7 +137,7 @@ footer{
 	padding-top: 0.2em;
 	padding-bottom: 0.4em;
 	bottom: 0px;
-	position: absolut;
+	position: absolute;
 	width: 100%;
 }
 #pie, #pie > a{
@@ -176,7 +176,11 @@ footer{
 		padding-right: 0px;
 		padding-left: 0px;
 	}
-}@media screen and (max-width:240px){
+	body > section {
+		position: initial;
+	}
+}
+@media screen and (max-width:240px){
 	#prueba > td.descarga > a > svg{
 		font-size: 100%;
 		margin-left: 2%;
