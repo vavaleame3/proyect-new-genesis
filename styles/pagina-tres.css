@@ -180,7 +180,7 @@ footer{
 }
 @media screen and (max-width:370px){
 	header{
-		height: auto;
+		height: 6em;
 	}
 }
 @media screen and (max-width:240px){
