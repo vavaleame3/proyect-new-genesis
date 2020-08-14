@@ -114,7 +114,9 @@ footer{
 	margin-bottom: 0%;
 	padding-top: 0.2em;
 	padding-bottom: 0.4em;
-	height: auto;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
 }
 #pie, #pie > a{
 	color: white;
@@ -133,21 +135,6 @@ footer{
 		text-align: center;
 		padding-right: 0px;
 		padding-left: 0px;
-	}
-}
-@media screen and (max-width:500px){
-	#muerte{
-		width: 100%;
-	}
-	body > section{
-		margin-top: 5em;
-		margin-bottom: 5em;
-	}
-}
-@media screen and (max-width:400px){
-	body > section{
-		margin-top: 9em;
-		margin-bottom: 9.5em;
 	}
 }
 @media screen and (max-width:370px){
