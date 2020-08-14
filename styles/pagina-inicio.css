@@ -112,8 +112,9 @@ footer{
 	display: block;
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
-	float: inline-end;
-	bottom: auto;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
 }
 #pie, #pie > a{
 	color: white;
@@ -134,46 +135,8 @@ footer{
 }
 @media screen and (max-width:370px){
 	header{
-		height: auto;
+		height: 6em;
 	}
-}
-
-/* ----------- iPad Pro ----------- */
-/* Portrait */
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-	header{
-		height: 4em;
-	}
-	#prueba > td.titulo{
-		font-size: 2em;
-	}
-	#prueba > td.titulo > h1{
-		margin-top: 0.5em;
-	}
-	#prueba > td.autor > h4{
-		margin-top: 1em;
-	}
-	#prueba > td.autor{
-		font-size: 2.5em;
-	}
-	svg{
-		font-size: 2.5em;
-	}
-	body>main>section{
-		width: auto;
-	}
-	p{
-		color: #00ff4c;
-		font-size: 1.8em;
-	}
-	.myButton{
-		font-size: 1.8em;
-	}
-	
 }
 @media screen and (max-width:550px){
 	.camino{
