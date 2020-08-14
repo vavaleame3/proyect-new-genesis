@@ -215,3 +215,8 @@ footer{
 		position: absolute;
 	}
 }
+@media screen and (max-width:690px){
+	footer{
+		position: unset;
+	}
+}
