@@ -157,9 +157,9 @@ footer{
 		width: 100%;
 	}
 }
-@media screen and (min-width:690px){
+@media screen and (max-width:690px){
 	footer{
-		position: absolute;
+		position: unset;
 	}
 }
 @media screen and (max-width:453px){
