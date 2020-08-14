@@ -70,6 +70,7 @@ p{
     font-family:'Courier New', Courier, monospace;
     color: #00ff4c;
     font-size: large;
+	text-align: center;
    }
 .camino{
 	width: 100%;
