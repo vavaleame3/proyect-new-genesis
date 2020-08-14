@@ -68,8 +68,8 @@ p{
     color: #00ff4c;
     font-size: large;
     padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
+	padding-right: 10px;
+	text-align: center;
    }
 .camino{
 	width: 100%;
@@ -109,10 +109,11 @@ footer{
 	margin-top: 0.5em;
 	background-color: #242424;
 	margin-bottom: 0%;
-	display: block;
 	padding-top: 0.2em;
 	padding-bottom: 0.4em;
-	bottom: auto;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
 }
 #pie, #pie > a{
 	color: white;
@@ -140,8 +141,7 @@ footer{
 }
 @media screen and (max-width:400px){
 	body > section{
-		margin-top: 1.5em;
-		margin-bottom: 5em;
+		margin-top: 1em;
 	}
 }
 @media screen and (max-width:370px){
