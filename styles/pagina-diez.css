@@ -11,7 +11,7 @@ body{
 	margin: unset;
 	background-size: 100% 100%;
    }
-   header{
+header{
 	background-color: #242424;
 	width: 100%;
 	height: 3.5em;
@@ -54,11 +54,12 @@ svg:hover{
 	box-shadow: 1px 1px 30px 1px rgba(245,245,245,0.57);
 }
 body>section{
-    background-color: #000000ea;
-	width: 10em;
+    background-color: #00000088;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-top: 6.5em;
+    margin-bottom: 150px;
     padding-top: 5px;
     padding-bottom: 10px;
    }
@@ -66,44 +67,20 @@ p{
     font-family:'Courier New', Courier, monospace;
     color: #00ff4c;
     font-size: large;
-    padding-left: 1px;
+    padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
    }
 .camino{
-    text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
-	}
-video{
-	width: 80%;
-	height: 70%;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 3%;
-}
-#problema{
-	width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 0;
-	margin-bottom: 5px;
-	font-family: 'Courier New', Courier, monospace;
-	font-weight: bold;
-	background-color: rgba(0, 0, 0, 0.863);
-	font-size: 1em;
-}
-#problema > a {
-	color: white;
-	font-family: 'Courier New', Courier, monospace;
-	font-weight: bold;
-}
+	width: 100%;
+	text-align: center;
+    }
 
 body>section>div{
     text-align: center;
    }
 
-   .myButtonI {
+.myButtonI {
 	box-shadow:inset 0px 1px 3px 0px #000000;
 	background:linear-gradient(to bottom, #44444460 5%, #00000060 100%);
 	background-color:#00000005;
@@ -124,31 +101,6 @@ body>section>div{
 	background-color:#94949450;
 }
 .myButtonI:active {
-	position:relative;
-	top:1px;
-}
-.myButtonD {
-	box-shadow:inset 0px 1px 3px 0px #000000;
-	background:linear-gradient(to bottom, #44444460 5%, #00000060 100%);
-	background-color:#00000005;
-	border-radius:10px;
-	border:2px solid #00ff4c;
-	display:inline-block;
-	cursor:pointer;
-	color:#00ff4c;
-	font-family:'Courier New', Courier, monospace;
-	font-size: 20px;
-	font-weight:bold;
-	padding:11px 23px;
-	text-decoration:none;
-	text-shadow:0px -1px 0px #000000;
-	margin-top: 10px;
-    }
-.myButtonD:hover {
-	background:linear-gradient(to bottom, #44444460 5%, #00000060 100%);
-	background-color:#94949450;
-}
-.myButtonD:active {
 	position:relative;
 	top:1px;
 }
@@ -175,7 +127,7 @@ footer{
 	font-size: 1em;
 }
 /*MEDIA QUERYS*/
-@media screen and (max-width:710px){
+@media screen and (max-width:700px){
 	body > section{
 		width: 100%;
 	}
@@ -187,16 +139,28 @@ footer{
 		padding-left: 0px;
 	}
 }
-@media screen and (max-width:453px){
-	.myButtonI{
-		margin-right: unset;
-	}
-	.myButtonD{
-		margin-left: unset;
+@media screen and (max-width:400px){
+	body > section{
+		margin-top: 1em;
 	}
 }
 @media screen and (max-width:370px){
 	header{
-		height: 6em;
+		height: auto;
+	}
+}
+@media screen and (max-width:240px){
+	#prueba > td.descarga > a > svg{
+		font-size: 100%;
+		margin-left: 2%;
+	}
+	#prueba > td.descarga{
+		width: auto;
+		padding: 0%;
+	}
+	.myButtonD , .myButtonI{
+		font-size: 1em;
+		font-weight:bold;
+		padding:0.5em 0.7em;
 	}
 }
