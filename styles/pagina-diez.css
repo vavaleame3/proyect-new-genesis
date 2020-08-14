@@ -1,10 +1,10 @@
 @font-face{
 	font-family: DS-DIGI;
-    src: url(styles\font\DS-DIGI.TTF) format("truetype");
+    src: url(../styles/font/DS-DIGI.TTF) format("truetype");
 }
 @font-face{
 	font-family: bison;
-	src: url(styles\font\Bison-Bold_PersonalUse_.ttf) format("truetype");
+	src: url(../styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
 }
 body{
 	background: url(../images/fondo-dialogo-1.jpg) #474747;
@@ -67,7 +67,8 @@ p{
     color: #00ff4c;
     font-size: large;
     padding-left: 1px;
-    padding-right: 10px;
+	padding-right: 10px;
+	text-align: center;
    }
 .camino{
     text-align: center;
@@ -90,6 +91,7 @@ video{
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: bold;
 	background-color: rgba(0, 0, 0, 0.863);
+	font-size: 1em;
 }
 #problema > a {
 	color: white;
@@ -154,6 +156,7 @@ body>section>div{
 footer{
 	margin-top: 0.5em;
 	background-color: #242424;
+	margin-bottom: 0%;
 	padding-top: 0.2em;
 	padding-bottom: 0.4em;
 	bottom: 0px;
@@ -192,7 +195,7 @@ footer{
 		margin-left: unset;
 	}
 }
-@media screen and (max-width:388px){
+@media screen and (max-width:370px){
 	header{
 		height: 6em;
 	}
