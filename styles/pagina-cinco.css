@@ -1,10 +1,10 @@
 @font-face{
 	font-family: DS-DIGI;
-    src: url(styles\font\DS-DIGI.TTF) format("truetype");
+    src: url(../styles/font/DS-DIGI.TTF) format("truetype");
 }
 @font-face{
 	font-family: bison;
-	src: url(styles\font\Bison-Bold_PersonalUse_.ttf) format("truetype");
+	src: url(..styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
 }
 body{
 	background: url(../images/fondo-dialogo-1.jpg) #474747;
