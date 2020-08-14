@@ -76,11 +76,11 @@ p{
     padding-left: 10px;
 	}
 video{
-	width: 80%;
-	height: 70%;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 5%;
+	width: 85%;
+	height: 75%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-top: 2%;
 }
 #problema{
 	width: 60%;
@@ -169,6 +169,12 @@ footer{
 		background-image: url(../images/fondo-dialogo.jpg);
 		background-size: unset;
 	}
+	video{
+		width: 95%;
+		height: 85%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
 }
 @media screen and (max-width:530px) and (min-width:454px){
 	footer{
@@ -196,5 +202,20 @@ footer{
 @media screen and (max-width:370px){
 	header{
 		height: 6em;
+	}
+}
+@media screen and (max-width:240px){
+	#prueba > td.descarga > a > svg{
+		font-size: 100%;
+		margin-left: 2%;
+	}
+	#prueba > td.descarga{
+		width: auto;
+		padding: 0%;
+	}
+	.myButton{
+		font-size: 1em;
+		font-weight:bold;
+		padding:0.5em 0.7em;
 	}
 }
