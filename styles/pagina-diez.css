@@ -154,11 +154,10 @@ body>section>div{
 footer{
 	margin-top: 0.5em;
 	background-color: #242424;
-	margin-bottom: 0%;
-	display: block;
 	padding-top: 0.2em;
 	padding-bottom: 0.4em;
-	bottom: auto;
+	bottom: 0px;
+	position: absolute;
 }
 #pie, #pie > a{
 	color: white;
