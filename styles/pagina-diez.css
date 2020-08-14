@@ -158,6 +158,7 @@ footer{
 	padding-bottom: 0.4em;
 	bottom: 0px;
 	position: absolute;
+	width: 100%;
 }
 #pie, #pie > a{
 	color: white;
