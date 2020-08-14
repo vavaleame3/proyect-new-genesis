@@ -150,7 +150,7 @@ footer{
 		margin-bottom: 9.5em;
 	}
 }
-@media screen and (max-width:388px){
+@media screen and (max-width:370px){
 	header{
 		height: auto;
 	}
