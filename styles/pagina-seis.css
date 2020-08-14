@@ -178,3 +178,8 @@ footer{
 		padding:0.5em 0.7em;
 	}
 }
+@media screen and (max-width:690px){
+	footer{
+		position: unset;
+	}
+}
