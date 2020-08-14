@@ -1,10 +1,10 @@
 @font-face{
 	font-family: DS-DIGI;
-    src: url(styles\font\DS-DIGI.TTF) format("truetype");
+    src: url(../styles/font/DS-DIGI.TTF) format("truetype");
 }
 @font-face{
 	font-family: bison;
-	src: url(styles\font\Bison-Bold_PersonalUse_.ttf) format("truetype");
+	src: url(../styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
 }
 body{
 	background: url(../images/fondo-dialogo-1.jpg) #474747;
@@ -61,14 +61,15 @@ body>section{
     margin-top: 5.1em;
     margin-bottom: 5.1em;
     padding-top: 5px;
-    padding-bottom: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
    }
 p{
     font-family:'Courier New', Courier, monospace;
     color: #00ff4c;
     font-size: large;
-    padding-left: 10px;
-    padding-right: 10px;
    }
 .camino{
 	width: 100%;
@@ -150,13 +151,28 @@ footer{
 	font-size: 1em;
 }
 /*MEDIA QUERYS*/
-@media screen and (max-width:710px){
+@media screen and (max-width:720px){
 	body > section{
 		width: 100%;
 	}
 }
-@media screen and (max-width:388px){
+@media screen and (max-width:370px){
 	header{
-		height: 6em;
+		height: auto;
+	}
+}
+@media screen and (max-width:240px){
+	#prueba > td.descarga > a > svg{
+		font-size: 100%;
+		margin-left: 2%;
+	}
+	#prueba > td.descarga{
+		width: auto;
+		padding: 0%;
+	}
+	.myButtonD , .myButtonI{
+		font-size: 1em;
+		font-weight:bold;
+		padding:0.5em 0.7em;
 	}
 }
