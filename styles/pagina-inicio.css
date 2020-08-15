@@ -1,0 +1,161 @@
+@font-face{
+	font-family: DS-DIGI;
+    src: url(../styles/font/DS-DIGI.TTF) format("truetype");
+}
+@font-face{
+	font-family: bison;
+	src: url(../styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
+}
+body{
+	background: url(../images/fondo-pagina-inicio-6.jpg) #474747;
+	margin: unset;
+	background-size: 100% 100%;
+}
+
+/*ENCABEZADO*/
+header{
+	background-color: #242424;
+	width: 100%;
+	height: 3.5em;
+	margin: unset;
+	
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#prueba > td.titulo{
+	font-family: bison;
+	color: white;
+	font-size: 1em;
+}
+#prueba > td.titulo > h1{
+	margin-top: 0.2em;
+}
+#prueba > td.autor > h4{
+	margin-top: 0.8em;
+}
+#prueba > td.autor{
+	margin: unset;
+	font-family: 'Courier New', Courier, monospace;
+	color: #749159;
+	padding: unset;
+	font-size: 1.1em;
+}
+#prueba > td.descarga{
+	margin: unset;
+}
+svg{
+	margin-left: 50px;
+	font-size: 2em;
+	color: white;
+	text-decoration: none;
+}
+svg:hover{
+	box-shadow: 1px 1px 30px 1px rgba(245,245,245,0.57);
+}
+
+/*TEXTO*/
+main{
+ width: 100%;
+ height: 100%;
+}
+
+body>main>section{
+    background-color: #00000088;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 10px;
+}
+p{
+ font-family:'Courier New', Courier, monospace;
+ color: #00ff4c;
+ font-size: large;
+}
+
+/*BOTONES*/
+body>main>section>div{
+    text-align: center;
+}
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #000000;
+	background:linear-gradient(to bottom, #44444460 5%, #00000060 100%);
+	background-color:#00000005;
+	border-radius:10px;
+	border:2px solid #00ff4c;
+	display:inline-block;
+	cursor:pointer;
+	color:#00ff4c;
+	font-family:'Courier New', Courier, monospace;
+	font-size: 20px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #000000;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #44444460 5%, #00000060 100%);
+	background-color:#94949450;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*PIE DE PAGINA*/
+footer{
+	margin-top: 0.5em;
+	background-color: #242424;
+	padding-top: 0.2em;
+	padding-bottom: 0.4em;
+	bottom: 0px;
+	width: 100%;
+	margin-top: 1.5em;
+}
+#pie, #pie > a{
+	color: white;
+	font-size: 0.6em;
+	height: auto;
+	text-align: center;
+	margin-bottom: unset;
+	
+}
+#pie > a{
+	font-size: 1em;
+}
+/*MEDIA QUERYS*/
+@media screen and (max-width:950px) and (min-width:100px){
+	body>main>section{
+		width: auto;
+	}
+}
+@media screen and (max-width:370px){
+	header{
+		height: 6em;
+	}
+}
+
+@media screen and (max-width:550px){
+	.camino{
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+@media screen and (max-width:240px){
+	#prueba > td.descarga > a > svg{
+		font-size: 100%;
+		margin-left: 2%;
+	}
+	#prueba > td.descarga{
+		width: auto;
+		padding: 0%;
+	}
+	.myButtonD , .myButtonI{
+		font-size: 1em;
+		font-weight:bold;
+		padding:0.5em 0.7em;
+	}
+}

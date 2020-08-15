@@ -1,0 +1,147 @@
+@font-face{
+	font-family: DS-DIGI;
+    src: url(../styles/font/DS-DIGI.TTF) format("truetype");
+}
+@font-face{
+	font-family: bison;
+	src: url(../styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
+}
+body{
+	background: url(../images/fondo-final.jpg) #474747;
+    margin: unset;
+    background-size: 100%;
+}
+
+header{
+	background-color: #242424;
+	width: 100%;
+	height: 3.5em;
+	margin: unset;
+	
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#prueba > td.titulo{
+	font-family: bison;
+	color: white;
+	font-size: 1em;
+}
+#prueba > td.titulo > h1{
+	margin-top: 0.2em;
+}
+#prueba > td.autor > h4{
+	margin-top: 0.8em;
+}
+#prueba > td.autor{
+	margin: unset;
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(112, 190, 196);
+	padding: unset;
+	font-size: 1.1em;
+}
+#prueba > td.descarga{
+	margin: unset;
+}
+svg{
+	margin-left: 50px;
+	font-size: 40px;
+	color: white;
+	text-decoration: none;
+}
+svg:hover{
+	box-shadow: 1px 1px 30px 1px rgba(245,245,245,0.57);
+}
+
+main{
+ width: 100%;
+ height: 100%;
+}
+
+body > section{
+    background-color: #00000025;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 5.5em;
+    margin-bottom: 5.5em;
+    display: table;
+}
+p{
+ font-family:'Courier New', Courier, monospace;
+ color: #000000;
+ font-size: large;
+ font-weight: 600;
+ text-align: center;
+}
+
+body>section>div{
+    text-align: center;
+}
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #000000;
+	background:linear-gradient(to bottom, #44444460 5%, #00000060 100%);
+	background-color:#00000005;
+	border-radius:10px;
+	border:2px solid rgb(112, 190, 196);
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(112, 190, 196);
+	font-family:'Courier New', Courier, monospace;
+	font-size: 20px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #000000;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #44444460 5%, #00000060 100%);
+	background-color:#94949450;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*MEDIA QUERYS*/
+@media screen and (max-width:950px){
+	body > section{
+		width: auto;
+	}
+}
+@media screen and (max-width:550px){
+	.camino{
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+@media screen and (max-width:388px){
+	header{
+		height: 6em;
+	}
+}
+@media screen and (max-width:240px){
+	#prueba > td.descarga > a > svg{
+		font-size: 100%;
+		margin-left: 2%;
+	}
+	#prueba > td.descarga{
+		width: auto;
+		padding: 0%;
+	}
+	.myButtonD , .myButtonI{
+		font-size: 1em;
+		font-weight:bold;
+		padding:0.5em 0.7em;
+	}
+}
+@media screen and (max-width:400px){
+	body > section{
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+}
