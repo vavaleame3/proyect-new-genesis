@@ -141,9 +141,3 @@ body>section>div{
 		padding:0.5em 0.7em;
 	}
 }
-@media screen and (max-width:400px){
-	body > section{
-		margin-top: 0.5em;
-		margin-bottom: 0.5em;
-	}
-}
