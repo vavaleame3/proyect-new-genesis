@@ -150,12 +150,6 @@ footer{
 	font-size: 1em;
 }
 /*MEDIA QUERYS*/
-@media screen and (max-width:710px){
-	body > section{
-		width: 100%;
-	}
-}
-
 @media screen and (max-width:550px){
 	.camino{
 		text-align: center;
