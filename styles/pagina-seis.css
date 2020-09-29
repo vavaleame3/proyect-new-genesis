@@ -7,7 +7,7 @@
 	src: url(../styles/font/Bison-Bold_PersonalUse_.ttf) format("truetype");
 }
 body{
-	background: url(../images/fondo-texto.jpg) #474747;
+	background: url(../images/fondo-texto.png) #474747;
 	margin: unset;
 	background-size: 100%;
    }
